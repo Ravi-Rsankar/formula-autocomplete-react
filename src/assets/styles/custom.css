@@ -1,0 +1,1258 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('./interfont.css');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.callout .ellipsis {
+    width: 70%;
+    white-space: nowrap;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block !important;
+}
+
+
+.bgColor4 {
+    background: #F5F6F8
+}
+
+.hVh {
+    height: 92.5vh !important;
+}
+
+.bxShadowLft {
+    border-right: solid 1px #D3D9E0;
+}
+
+.badge {
+    padding: 0.2em 0.4em;
+    border-radius: 0.5rem;
+}
+
+.bg-lightblue {
+    background-color: #BBD3F3 !important;
+    color: #000 !important;
+}
+
+.callout.callout {
+    border-left-color: #D3D9E0;
+}
+
+.callout.callout-danger {
+    border-left-color: #FF2E19;
+}
+
+.callout.callout-medium {
+    border-left-color: #FF7119;
+}
+
+.callout.callout-warning {
+    border-left-color: #FFDC19;
+}
+
+.callout .text-right {
+    line-height: 20px;
+}
+
+.callout {
+    box-shadow: none;
+}
+
+.bxShadowRgt {
+    box-shadow: -2px 0px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.panel-title a:after {
+    font-family: Fontawesome;
+    content: '\f077';
+    float: right;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.panel-title a.collapsed:after {
+    font-family: Fontawesome;
+    content: '\f078';
+}
+
+.CustomTable {
+    border: solid 2px #ecf2fa;
+}
+
+.CustomTable thead th {
+    border-bottom: 0px;
+}
+
+.CustomTable td,
+.CustomTable th {
+    padding: 0.25rem;
+}
+
+/* just a reset of the css */
+
+.flexboxTbl {
+    width: 100%;
+    margin: 0;
+    border: 2px solid #ECF2FA;
+}
+
+.flexboxTbl .table-container {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 4px;
+
+}
+
+.flexboxTbl .table-row {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.flexboxTbl .heading {
+    background-color: #ECF2FA;
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+.flexboxTbl .row-item {
+    display: flex;
+    flex: 1;
+    font-size: 14px;
+    padding: 8px 8px;
+    justify-content: left;
+    align-items: left;
+    transition: all 0.15s ease-in-out;
+}
+
+
+.flexboxTbl .row-sub-container {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+}
+
+.flexboxTbl .row-sub-container .row-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #dadada;
+}
+
+.flexboxTbl .table-row:last-child,
+.flexboxTbl .row-sub-container .row-item:last-child {
+    border-bottom: 0;
+}
+
+.border .table-sm td,
+.border .table-sm th {
+    border-top: 0px solid #dee2e6;
+}
+
+.flexboxTbl .row-item:nth-child(1) {
+    flex-grow: 3;
+}
+
+.flexboxTbl .row-item:nth-child(2) {
+    flex-grow: 3;
+}
+
+.btNone {
+    border-top: 0px !important;
+}
+
+
+/* total width */
+.scrollbar::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+    overflow-y: scroll !important;
+
+}
+
+/* background of the scrollbar except button or resizer */
+.scrollbar::-webkit-scrollbar-track {
+    background-color: #fff
+}
+
+
+/* scrollbar itself */
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 5px solid #fff
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a0a5;
+    border: 4px solid #f4f4f4
+}
+
+/* set button(top and bottom of the scrollbar) */
+.scrollbar::-webkit-scrollbar-button {
+    display: none
+}
+
+.content-wrapper {
+    background-color: #fff;
+}
+
+.content-wrapper-v2 {
+    background-color: #F7F9FA;
+    height: 100vh !important;
+    margin-left: 87.5px;
+}
+
+.bxShadowLft .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border: none !important;
+}
+
+.bxShadowLft .nav-tabs .nav-link.active {
+    background-color: #0074FF;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.bxShadowLft .products-list .product-info {
+    margin-left: 25px;
+}
+
+.bgWhite {
+    background-color: #fff !important;
+}
+
+.bxShadow {
+    box-shadow: none !important;
+}
+
+.inputMsg {
+    position: absolute;
+    bottom: 0px;
+}
+
+.grey2 {
+    background-color: #F0F1F2 !important;
+}
+
+
+.timeline>div>.fa,
+.timeline>div>.fab,
+.timeline>div>.fad,
+.timeline>div>.fal,
+.timeline>div>.far,
+.timeline>div>.fas,
+.timeline>div>.ion,
+.timeline>div>.svg-inline--fa {
+    height: 20px;
+    left: 22px;
+    width: 20px;
+    line-height: 20px;
+}
+
+.bgLightGreen {
+    background-color: #F9FFDB !important;
+}
+
+.pickDate {
+    border-radius: 80px !important;
+    font-size: 30px !important;
+    height: 50px !important;
+    width: 50px !important;
+    margin-top: 15px !important;
+}
+
+.callout {
+    box-shadow: none;
+    border-radius: 0px !important;
+    border-left: px;
+}
+
+.products-list>.item {
+    padding: 5px 0;
+}
+
+.product-list-in-card>.item {
+    border-bottom: 0px;
+}
+
+[class*=sidebar-dark-] {
+    background-color: #333333;
+}
+
+.newTask input,
+.newTask textarea {
+    border: 0px !important;
+    padding-left: 0px;
+}
+
+.dropdown-toggle::after {
+    border-top: 0px;
+}
+
+.txtColOne {
+    color: #070D14;
+}
+
+.text-sm {
+    font-size: .8125rem !important
+}
+
+
+@media (min-width: 992px) {
+
+    .sidebar-mini .nav-sidebar,
+    .sidebar-mini .nav-sidebar .nav-link,
+    .sidebar-mini .nav-sidebar>.nav-header {
+        white-space: nowrap;
+        width: 200px;
+    }
+}
+
+.sidebar-mini .main-sidebar .nav-link,
+.sidebar-mini-md .main-sidebar .nav-link,
+.sidebar-mini-xs .main-sidebar .nav-link {
+    /*width: calc(200px - 0.5rem * 2);*/
+    width: auto;
+    transition: width ease-in-out .3s;
+}
+
+.layout-fixed .main-sidebar {
+    width: 200px;
+}
+
+.main-sidebar-v2 {
+    background-color: #000000;
+}
+
+@media (min-width: 992px) {
+
+    body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper,
+    body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer,
+    body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
+        transition: margin-left .3s ease-in-out;
+        margin-left: 200px;
+    }
+}
+
+.layout-fixed .brand-link {
+    width: 200px;
+}
+
+.main-sidebar .text-sm .nav-link {
+    padding: .4rem 0rem .4rem 0.8rem;
+}
+
+.font-weight-bold {
+    font-weight: 600 !important;
+}
+
+.font-weight-700 {
+    font-weight: 700 !important;
+}
+
+.font-weight-500 {
+    font-weight: 500 !important;
+}
+
+.products-list .product-description {
+    color: #070D14;
+}
+
+.text-muted {
+    color: #74797F !important;
+}
+
+.flex-column hr {
+    border-top: solid 1px #8ea1b1 !important;
+}
+
+.main {
+    height: 77vh !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 25px;
+}
+
+.myTasksList {
+    max-height: calc(100vh - 25vh);
+    overflow: auto;
+}
+
+.taskList {
+    max-height: 72vh;
+    overflow: auto;
+}
+
+/* Sets active task highlighted */
+.task-active {
+    background-color: rgb(236, 241, 251) !important;
+    overflow: hidden;
+}
+
+.timeline {
+    margin-left: -20px;
+}
+
+.eventFilter .nav-link.active {
+    color: #007bff !important;
+    border-radius: 0px !important;
+    border-bottom: solid 1px #007bff !important;
+    font-weight: 600;
+    z-index: 3 !important;
+    position: relative;
+}
+
+.mainparent .navbar {
+    margin-left: -10px !important;
+    margin-right: -7px;
+}
+
+.main input:hover,
+.main textarea,
+.callout input,
+.todo-list input {
+    border: solid 1px #fff !important
+}
+
+.main input:hover,
+.main textarea:hover {
+    border: solid 1px #fff !important;
+    color: #74797F
+}
+
+.callout .dropoptbackgrdstatus a:hover {
+    color: #0074FF
+}
+
+.myTasksList .product-title {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 78%;
+    vertical-align: middle;
+}
+
+.myTasksList .w-100 {
+    width: 90% !important;
+    line-height: 17px;
+}
+
+.bxShadowLft .products-list .product-img {
+    float: left;
+    top: -3px;
+    position: relative
+}
+
+.icnTop {
+    top: 5px !important;
+    font-size: 1em;
+}
+
+.minHeight {
+    min-height: 50px;
+}
+
+.modal .info-box-number {
+    text-align: left !important;
+}
+
+.form-control {
+    color: #070D14 !important;
+}
+
+.main textarea {
+    resize: none;
+}
+
+.dropMinH {
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.dropMinH a,
+.dropDownContainer ul.dropdown-menu a {
+    color: #070D14;
+}
+
+.dropMinH a:hover,
+.dropDownContainer ul.dropdown-menu a:hover {
+    color: #0074FF;
+}
+
+.bg-primary {
+    background-color: #0074FF !important;
+}
+
+a,
+.text-primary {
+    color: #0074FF;
+}
+
+.statusDropdown .statisIcons svg {
+    width: 15px;
+    height: 15px;
+}
+
+.MuiButtonBase-root {
+    text-transform: inherit !important;
+}
+
+.noScroll {
+    overflow: hidden;
+}
+
+.displyNone {
+    display: none !important;
+}
+
+.main input {}
+
+@media (max-width: 991px) {
+    .layout-fixed .main-sidebar {
+        display: none;
+    }
+}
+
+.dropDownContainer .btn-group:hover {
+    background-color: #F0F1F2;
+}
+
+.dropDownContainer .btn-group .fa-chevron-down {
+    display: none;
+}
+
+.dropDownContainer .btn-group:hover .fa-chevron-down {
+    display: block;
+}
+
+.dropDownContainerStatus .assigndataextra:hover {
+    background-color: #F0F1F2;
+}
+
+.dropDownContainer .assigndataextra .fa-chevron-down {
+    display: none;
+}
+
+.dropDownContainer .assigndataextra:hover .fa-chevron-down {
+    display: block;
+}
+
+.assigneeDropdown .fa-chevron-down {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+.selectTeam {
+    width: 120px;
+    display: inline-block;
+}
+
+.timeline::before {
+    left: 30px !important;
+}
+
+.creatTskPic img {
+    width: 75%;
+    position: relative;
+    top: -10px;
+}
+
+.markAsComplete .modal-dialog {
+    width: 320px;
+}
+
+.animated-gradient {
+    animation: animateBg 2s linear infinite;
+    background-image: linear-gradient(90deg, #78a374, #8bb07d, #96b309, #9bcaa6, #a2c793);
+    background-size: 400% 100%;
+    color: #fff;
+    left: -10px !important;
+    padding-left: 10px !important;
+    position: relative;
+    padding: 0.1rem;
+}
+
+@keyframes animateBg {
+    0% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/*show no task msg in center page */
+.no-task-msg {
+    text-align: center;
+    padding-top: 200px !important;
+}
+
+
+.wid50 {
+    width: 50px !important;
+}
+
+.datePick {
+    font-size: 16px !important;
+}
+
+.timeline::before {
+    height: calc(100% - 30px);
+}
+
+/*
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+  only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 320px) { 
+  
+    .hVh {
+        height: 93.5vh!important;
+    }
+  }
+*/
+.statusPosition {
+    padding-top: 10px !important;
+    position: relative;
+    top: 3px;
+}
+
+.dueDate .info-box-number {
+    width: 120px;
+    display: inline-block;
+}
+
+.datePick:hover,
+.datePick:focus {
+    border: solid 1px #fff !important;
+}
+
+.w-150 {
+    width: 150px;
+}
+
+.react-datepicker__close-icon::after {
+    line-height: 0px;
+}
+
+.react-datepicker__close-icon {
+    top: -4px;
+}
+
+.main .datePick:hover,
+.main .datePick:hover {
+    border: 0px !important;
+}
+
+.activityl .fa-circle:before {
+    content: "\f111";
+    color: #007bff;
+}
+
+.selectStatus {
+    width: auto;
+    display: inline-block;
+}
+
+#root,
+.master-container,
+.content,
+.container-fluid,
+.Vh-100 {
+    height: 100vh;
+}
+
+.Vh-6 {
+    height: 7vh;
+}
+
+.Vh-94 {
+    height: 92vh;
+}
+
+.bxShadowLft .text-sm .nav-link {
+    padding: 0.1rem 0.8rem;
+}
+
+.attachments-scroll .info-box-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* max-width: 150px; */
+    max-width: 150px;
+    vertical-align: middle;
+}
+
+.attachments-scroll .info-box {
+    min-height: 70px;
+    max-height: 70px;
+}
+
+.attachments-scroll .info-box .info-box-icon {
+    width: 50px;
+}
+
+.wid30 {
+    width: 30px;
+}
+
+.todo-list .info-box,
+.h-30 {
+    height: 30px;
+    overflow-y: hidden;
+}
+
+.todo-list .MuiButton-startIcon svg {
+    height: 25px;
+}
+
+.todo-list li:hover {
+    background-color: rgba(0, 116, 255, .1) !important;
+}
+
+.todo-list .info-box-icon label:not(.form-check-label):not(.custom-file-label) {
+    position: relative;
+    right: 22px;
+    top: 0px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.todo-list input,
+.todo-list .info-box-icon {
+    background: none;
+    border: 0px !important;
+}
+
+.row3 {
+    display: flex;
+}
+
+.col-b-1 {
+    flex: 0 0 20px;
+}
+
+.col-b-2 {
+    flex: 1 1;
+}
+
+.col-b-3 {
+    flex: 0 0 175px;
+}
+
+.todo-list .row3:hover {
+    background-color: rgba(0, 116, 255, .1) !important;
+}
+
+.todo-list .row3:hover .form-control {
+    background-color: #fff !important;
+}
+
+.todo-list .row3 .form-control {
+    height: 21px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.todo-list .row3 .react-datepicker__input-container svg {
+    height: 26px !important;
+    width: 26px !important;
+    margin-top: 1px;
+}
+
+.todo-list .row3 .fa-trash {
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.todo-list :hover input {
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+.secondlast .todo-list {
+    margin-left: -20px;
+    padding-left: 15px;
+    overflow: inherit;
+}
+
+.MuiButton-iconSizeMedium {
+    font-size: .75rem !important;
+}
+
+.todo-list .assigndataextra .sb-avatar {
+    margin-right: 15px;
+}
+
+.w-15 {
+    width: 15px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.min-300 {
+    width: 300px;
+}
+
+.dueDatePopup {
+    position: relatieve;
+}
+
+.dueDatePopup label {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+}
+
+.main-header .dropoptbackgrdstatus {
+    min-width: 120px !important;
+    left: 0px !important;
+    right: 0px !important;
+}
+
+.main-header {
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.15);
+}
+
+.suggestion-dropdown-menu {
+    z-index: 1000 !important;
+    min-width: 10rem;
+    padding: 2rem;
+    font-size: 1rem;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.275rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 18%);
+    position: absolute;
+    top: 2rem;
+}
+
+.tasksCont {
+    max-height: 82vh !important;
+    overflow-y: scroll;
+}
+
+.form-control__input:focus {
+    outline: 0;
+}
+
+.w-620 {
+    width: 620px;
+}
+
+.taskDetailsCont {
+    min-width: 700px;
+}
+
+.inputMsg .form-control__input {
+    padding: 5px !important;
+    border: 0px !important;
+    margin-left: 7px !important;
+}
+
+.task_table .sb-avatar {
+    top: -2px;
+    position: relative;
+}
+
+.TaskTitleCont .detail_btn {
+    margin-top: -1px;
+}
+
+.bgColor3 {
+    background-color: #ECF2FA;
+}
+
+.react-datepicker__time-list {
+    min-width: max-content !important;
+}
+
+.react-datepicker {
+    min-width: max-content !important;
+}
+
+.react-datepicker__time-container {
+    min-width: 70px;
+}
+
+.no-focus-border:focus-visible {
+    outline: 0px !important;
+}
+
+.react-datepicker__time-list-item {
+    color: #007bff !important;
+}
+
+.react-datepicker__time-list-item--selected {
+    color: white !important;
+}
+
+.todo-list .info-box-icon {
+    width: 90px;
+    display: inline-block;
+}
+
+.react-datepicker__aria-live .d-flex {
+    width: 150px;
+    position: relative;
+    right: 15px;
+}
+
+.dueDate .rounded-circle {
+    height: 50px;
+    width: 50px;
+}
+
+.assigndataextra .drpIcons {
+    width: 20px;
+    float: right;
+    position: absolute;
+    right: 7px;
+    font-size: 13px;
+}
+
+.dueDate .react-datepicker-wrapper {
+    margin-top: -10px;
+}
+
+.MuiPopover-paper {
+    overflow: unset !important;
+}
+
+.dueDate .react-datepicker-wrapper {
+    margin-top: -10px;
+}
+
+.resizeNone {
+    resize: none;
+}
+
+hr {
+    border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.RecurPattern .fa-chevron-down {
+    position: absolute;
+    right: 25px;
+    top: 35px;
+}
+
+.datePick4 .d-flex {
+    position: relative;
+    top: -1px;
+}
+
+.setWid .selectStatus {
+    width: 120px;
+}
+
+.top-10 {
+    top: 10px;
+}
+
+span.accordion-button.custom__accord-button.show::after {
+    transform: rotate(290deg) !important;
+    transform: rotate(0deg) !important;
+    color: #000000 !important;
+}
+
+.AssigneeTpsp .info-box-number .sb-avatar {
+    position: relative;
+    top: 2px;
+}
+
+.zoom-85 {
+    zoom: 85%;
+}
+
+.mn-2 {
+    margin-top: -1px !important;
+}
+
+.AssigneeTpsp img {
+    margin-top: 3px !important;
+}
+
+.bg-white {
+    background: #fff !important;
+}
+
+.task_table tr td:nth-child(3) .bg-transparent {
+    padding-bottom: 6px !important;
+    margin-top: -3px;
+}
+
+.tableSquare {
+    padding: 3px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.tableSquare.priority-high {
+    background: #FF2E19;
+}
+
+.tableSquare.priority-medium {
+    background: #FF7119;
+}
+
+.tableSquare.priority-low {
+    background: #FFDC19;
+}
+
+.tableSquare.priority-default {
+    background: #D3D9E0;
+}
+
+#bg-white-focus:focus {
+    background: white !important;
+}
+
+
+.hoverchild {
+    display: none;
+}
+
+.hoverparent:hover .hoverchild {
+    display: block;
+}
+
+.toastContainer {
+    left: 21vh;
+}
+
+.filter-options {
+    position: absolute;
+    right: 25px;
+    top: 95px;
+    z-index: 5;
+    min-height: 150px;
+    width: 330px;
+    max-height: 75vh;
+    overflow-y: auto;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.modal-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.list-decoration-none {
+    list-style: none;
+    text-decoration: none;
+}
+
+.filters__btn {
+    Width: 82px;
+    Height: 32px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+.card--header {
+    display: flex;
+    gap: 5px;
+}
+
+.filter-box {
+    margin-right: 49px;
+    width: 143px;
+    height: 120px;
+}
+
+
+.filter-checks {
+    height: 2px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.oval-user-container {
+    background-color: #D9D9D9;
+    border-radius: 90px;
+    width: fit-content;
+    padding: 4px;
+    padding-right: 8px;
+    padding-top: 6px;
+    margin-top: 4px;
+}
+
+.filter-bg {
+    box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 1px rgba(0, 0, 0, 0.12);
+    /* border: 1px solid rgb(240, 235, 235) !important; */
+}
+
+.align-center {
+    align-items: center;
+}
+
+.label-list-box {
+    background: #F0F1F2;
+    height: 20px;
+    border: 1px solid #D3D9E0;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.label-content:focus-within {
+    border: 1px solid gray;
+}
+
+.labels-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+.labels-input::-webkit-input-placeholder {
+    font-weight: 800 !important;
+    color: black !important;
+}
+
+.labels-input {
+    cursor: pointer;
+}
+
+.labels-input:focus-visible {
+    cursor: text;
+}
+
+.label-btn {
+    font-size: 0.75rem !important;
+}
+
+.label-list-edit {
+    background: #FFFFFF;
+    height: 20px;
+    border-radius: 2px;
+    color: #0074FF;
+    padding: 3px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectedUsers {
+    display: flex;
+    max-width: 280px;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding-left: 4px;
+}
+
+.dropdown-menu {
+    max-height: 306px;
+    overflow: auto;
+    min-width: max-content !important;
+    padding-right: 2rem !important;
+}
+
+
+.lowbgcolor {
+    color: black !important;
+    background-color: rgb(255, 220, 25) !important;
+}
+
+.mediumbgcolor {
+    color: white !important;
+    background-color: rgb(255, 113, 25) !important;
+}
+
+.highbgcolor {
+    color: white !important;
+    background-color: rgb(255, 46, 25) !important;
+}
+
+.notstartedbgcolor {
+    color: white !important;
+    background-color: rgb(79, 79, 79) !important;
+}
+
+.inprogressbgcolor {
+    color: black !important;
+    background-color: rgb(255, 195, 0) !important;
+}
+
+.deferredbgcolor {
+    color: white !important;
+    background-color: rgb(253, 77, 88) !important;
+}
+
+.donebgcolor {
+    color: white !important;
+    background-color: rgb(40, 167, 69) !important;
+}
+
+.timeline-body img {
+    width: 100%;
+}
+
+
+.taskOverlay3 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.taskDetHeader {
+    height: 52px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainTaskDet {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.chat-container {
+    display: flex;
+}
+
+.taskOverlay3 .timeline {
+    margin-bottom: 0px;
+}
+
+.input__element {
+    margin-bottom: 10px;
+    width: 15vw !important;
+}
